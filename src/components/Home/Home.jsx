@@ -46,7 +46,7 @@ const Home = () => {
           transition={{ duration: 0.9 }}
         >
           {/* show half of the photo using CSS clipping */}
-          <img src="/profile.jpg" alt="Karthik Jadhav" />
+          <img src={import.meta.env.BASE_URL + 'profile.jpg'} alt="Karthik Jadhav" />
         </motion.div>
       </div>
     </section>
