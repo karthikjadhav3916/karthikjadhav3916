@@ -1,5 +1,50 @@
 .contact {
-  padding: 2rem;
-  background-color: #f4f4f4;
+  padding: 4rem 2rem;
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%);
   text-align: center;
+}
+
+.contact-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-sub {
+  color: #455e66;
+  margin-bottom: 1.5rem;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-item {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #f0f9ff, #effafa);
+  box-shadow: 0 8px 18px rgba(10,20,30,0.04);
+}
+
+.contact-item a {
+  color: #07304a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-item svg {
+  color: #00b289;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 700px) {
+  .contact-card {
+    flex-direction: row;
+  }
 }
